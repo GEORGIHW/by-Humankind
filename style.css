@@ -1,0 +1,523 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-menu{
+    background: #FFFAEF;
+    height: 55px;
+    align-items: center;
+}
+
+.main-menu, .left-menu, .right-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu p, .right-menu p{
+    margin: 30px;
+    display: flex;
+}
+
+.main-menu p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #006450;
+}
+
+.company-name h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #00C08B;
+}
+
+.company-name span{
+    font-style: italic;
+    margin-right: 18px;
+}
+
+.liquid-soap{
+    background-image: url(image/Rectangle.png);
+    height: 882px;
+}
+
+.liquid-soap-inner-container{
+    padding: 168px 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.liquid-soap-inner-container p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    color: #FFFAEF;
+}
+
+.liquid-soap-inner-container button{
+    width: 200px;
+    height: 64px;
+    background: #E1FF32;
+    outline: none;
+    border: none;
+}
+
+.liquid-soap-inner-container button:hover{
+    background-color: transparent;
+    opacity: 0.8;
+    border: 2px solid #E1FF32;
+}
+
+.slider-dots{
+    margin-left: 1366px;
+    margin-top: 549px;
+    display: flex;
+    margin-right: 6px;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FFFAEF;
+    margin-right: 6px;
+}
+
+.dot:nth-child(2){
+    background-color: #fffaef;
+}
+
+.green-line{
+    background: #006450;
+    height: 2px;
+    margin-top: 25px
+}
+
+.soap-shop h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin-top: 84px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.shop{
+    margin-top: 107px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    padding: 0 25px;
+}
+
+.soaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.soaps h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #FFFAEF;
+}
+
+.quick-add{
+    background: #E1FF32;
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #3E3935;
+    margin-top: 481px;
+}
+
+.soaps p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #FFFAEF;
+    margin: 10px 150px;
+}
+
+.soaps:nth-child(1){
+    background-image: url(image/soap1.png);
+    width: 683px;
+    height: 683px;
+}
+
+.soaps:nth-child(2){
+    background-image: url(image/soap2.png);
+    width: 683px;
+    height: 683px;
+}
+
+.soaps:nth-child(3){
+    background-image: url(image/soap3.png);
+    width: 683px;
+    height: 683px;
+}
+
+.soaps:nth-child(4){
+    background-image: url(image/soap4.png);
+    width: 683px;
+    height: 683px;
+}
+
+.add-part-inner-container{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 683px;
+    height: 683px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head1{
+    margin-top: 270px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+}
+
+.headline h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #006450;
+}
+
+.headline p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #006450;
+}
+
+.headline button{
+    outline: none;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #006450;
+    background-color: #fff;
+    width: 204px;
+}
+
+.teen-vogue-headline{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #00C08B;
+    margin: 94px auto 0 auto;
+}
+
+.teen-vogue-slogan{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin: 24px auto 0 auto;
+    width: 777px;
+}
+
+.press{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #006450;
+    margin: 111px 0 0 0;
+}
+
+.shop-teen{
+    margin-top: 53px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    padding: 0 25px;
+}
+
+.teen-product{
+    width: 683px;
+    height: 683px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.teen-product p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #FFFAEF;
+    margin: 10px 150px;
+}
+
+.teen-product h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #FFFAEF;
+}
+
+
+.teen-product:nth-child(1){
+    background-image: url(image/teen1.png);
+}
+
+.teen-product:nth-child(2){
+    background-image: url(image/teen2.png);
+}
+
+.teen-product:nth-child(3){
+    background-image: url(image/teen3.png);
+}
+
+.teen-product:nth-child(4){
+    background-image: url(image/teen4.png);
+}
+
+.save-nature h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 89px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin: 120px auto;
+    width: 830px;
+}
+
+.save-nature-advert{
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+}
+
+.save-nature-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.save-nature-text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.4px;
+    color: #006450;
+}
+
+.save-nature-text span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: lowercase;
+    color: #006450;
+}
+
+.shop-now{
+    background-image: url(image/shop-now.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 455px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.shop-now h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin: 0 auto;
+    width: 1127px;
+}
+
+.shop-now button{
+    background-color: Transparent;
+    border: 2px solid #006450;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #006450;
+    padding: 2px 60px;
+    margin-top: 58px;
+}
+
+.shop-now button:hover{
+    background-color: #006450;
+    opacity: 0.8;
+    color: black;
+}
+
+.footer-inner-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+.footer-part h3{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+    margin-bottom: 18px;
+}
+
+.footer-part p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+}
+
+.footer-last-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+}
+
+.footer-last-container p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #006450;
+}
+
+.footer-last-container h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #00C08B;
+}
+
+.footer-last-container span{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #00C08B;
+}
